@@ -6,18 +6,18 @@ I mostly was practicing PHP. It’s one of the earlier sites I tried, and the co
 If you try to run this yourself, you will need to edit line 50 (database connection variables), and then add the following tables in a sql database:
 
 table `song`
-Field 	Type 	Null 	Key 	Default 	Extra 	
+Field 	Type 	Null 	Key 	Default 	Extra
 id 	int(8) 	NO 	PRI 	NULL	auto_increment
-title 	varchar(100) 	NO 		NULL	
-artist 	varchar(100) 	NO 		NULL	
-lyrics 	text 	NO 		NULL	
-uploaded 	datetime 	NO 		CURRENT_TIMESTAMP 	
-uploadedBy 	int(10) 	YES 		NULL	
+title 	varchar(100) 	NO 		NULL
+artist 	varchar(100) 	NO 		NULL
+lyrics 	text 	NO 		NULL
+uploaded 	datetime 	NO 		CURRENT_TIMESTAMP 
+uploadedBy 	int(10) 	YES 		NULL
 
 table `user`
-Field 	Type 	Null 	Key 	Default 	Extra 	
+Field 	Type 	Null 	Key 	Default 	Extra 
 id 	int(10) 	NO 	PRI 	NULL	auto_increment
-email 	varchar(100) 	NO 		NULL	
-username 	varchar(100) 	YES 		NULL	
-pw 	varchar(100) 	NO 		NULL	
+email 	varchar(100) 	NO 		NULL
+username 	varchar(100) 	YES 		NULL
+pw 	varchar(100) 	NO 		NULL
 created 	datetime 	NO 		CURRENT_TIMESTAMP 	
